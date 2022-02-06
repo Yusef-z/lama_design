@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+}
+
+.SingleImageContainer {
+
+    margin: 20px 20px 0px 20px;
+    position: relative;
+
+}
+
+.jobRole {
+    color: #A19F9F;
+    
+    }
+
+.employeeName {
+    font-size: 24px;
+}
+
+
+
+.ImagesContainer {
+    display: flex;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.fa-linkedin-in {
+    color: white;
+    font-size: 25px;
+}
+
+.iconContainer:hover {
+   opacity: 1;
+}
+
+.EmployeeInfoContainer {
+    text-align: center;
+}
+
+
+
+
+.iconContainer {
+    opacity: 0.5;
+    padding: 8px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: #2596BE;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
