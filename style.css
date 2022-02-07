@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.employeeContainer {
+    margin: 15px;
+}
+
+
+img, .imageContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+img {
+    border: 1px #9e9c9c    solid;
+}
+
+.icon {
+
+
+    color: white;
+}
+
+.iconContainer:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.iconContainer {
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+    background-color: #0e76a8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.employeeInfoContainer {
+    text-align: center;
+}
+
+
+.employeeName {
+    margin: 7px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.employeeRole {
+    color: #9e9c9c;
+}
